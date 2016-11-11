@@ -1,0 +1,132 @@
+/* ==================================================================
+	DARK SCHEME
+================================================================== */
+.panel-row-style{
+	background-color: #000000!important;
+}
+label,
+.shopform label,
+.shoptable .table > thead > tr > th, 
+.shoptable .table > tbody > tr > th, 
+.shoptable .table > tfoot > tr > th, 
+.shoptable .table > thead > tr > td, 
+.shoptable .table > tbody > tr > td, 
+.shoptable .table > tfoot > tr > td,
+.tags-widget a,
+a, a > *,
+.w-section .stat-count,
+.cartbutton i,
+.searchbutton small, .cartbutton small,
+.searchbutton i,
+.dropdown-menu li a, 
+.skills,
+.service-one p,
+body,
+.portfolio-filtering a, .portfolio-filter ul li a,
+h1, h2, h3, h4, h5, h6,
+.topcontact strong,
+.topcontact span,
+.navbar-nav > li > a {
+	color:#e9e9e9;
+}
+
+
+#payment label,
+.box2,
+.owl-item,
+.owl-team,
+#teamcarousel .magnifier .topsocial a,
+#teamcarousel .topsocial a,
+.vimeo,
+.dropdown-menu {
+	border-color: #313131 !important; 
+}
+
+.pager li > a, .pager li > span,
+.service-style-6 .border-left,
+.service-style-6 .border-right,
+.service-style-6 .border-bottom,
+.pricingbox,
+.pricingbox .pricing-body ul li,
+.accordion-toggle-2 .panel,
+.panel,
+hr,
+.shop-tab .tab-content > .tab-pane,
+.portfolio-details,
+.teambox .topsocial a,
+.panel-default > .panel-heading,
+.tags-widget a,
+.pager .previous > a, .pager .previous > span,
+.pager,
+.pager .next > a, .pager .next > span,
+#sidebar .widget-title h3,
+.stylish-input-group .form-control,
+.w-section .statwrap,
+.classic-item,
+.owl-client,
+.icon-container,
+.dropdown-menu.topcart,
+.cartbutton,
+.searchbutton,
+.dropdown-menu,
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td,
+.dropdown-menu li,
+.form-control,
+.media-list li,
+.header.affix,
+.progress,
+.service-one,
+.portfolio-filtering a, .portfolio-filter ul li a,
+.service h3 i,
+.service h3,
+.servicebox,
+.border-top,
+.topbar-container .topsocial,
+.menu-container {
+	border-color: #313131;
+}
+
+.customquote,
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td,
+.pager li > a, .pager li > span,
+.panel-default > .panel-heading,
+.tags-widget a,
+.pager .next > a, .pager .next > span,
+.pager .previous > a, .pager .previous > span,
+.pager,
+.dropdown-menu,
+.mapbg,
+.header.affix,
+.owl-desc,
+.progress-bar span, .progress-bar-striped,
+.header,
+.w-section
+{
+	background-color: #212121;
+}
+
+.owl-desc,
+.owl-team,
+.panel-body,
+.accordion-toggle-2 .panel,
+body,
+.icon-container,
+.woocommerce .input-text ,
+.woocommerce div.country_select a.select2-choice,
+.woocommerce div.state_select a.select2-choice,
+.dropdown-menu,
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li > a.active, .navbar-nav > li > a:active, .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+	background-color: #000000 !important;
+}
+
+.service-style-6 .service-one,
+.form-control,
+.product div#myTabContent .panel,
+.g-section,
+.progress,
+.service h3 i,
+.row.service-style-6
+ {
+	background-color: #000000 ;
+}
+

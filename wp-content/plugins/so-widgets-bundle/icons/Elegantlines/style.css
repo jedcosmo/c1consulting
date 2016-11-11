@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'sow-elegantlines';
+	src:url('font/ElegantIcons.eot?map0iz');
+	src:url('font/ElegantIcons.eot?#iefixmap0iz') format('embedded-opentype'),
+	url('font/ElegantIcons.woff?map0iz') format('woff'),
+	url('font/ElegantIcons.ttf?map0iz') format('truetype'),
+	url('font/ElegantIcons.svg?map0iz');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.sow-icon-elegantlines {
+	font-family: 'sow-elegantlines';
+	display: inline-block;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.sow-icon-elegantlines[data-sow-icon]:before {
+	content: attr(data-sow-icon);
+}

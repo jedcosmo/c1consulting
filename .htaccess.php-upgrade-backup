@@ -1,0 +1,31 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^contact\.html$ "http\:\/\/www\.c1consulting\.com\/contact\-us\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^about\-intro\.html$ "http\:\/\/www\.c1consulting\.com\/about\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^about\-leadershipteam\.html$ "http\:\/\/www\.c1consulting\.com\/about" [R=301,L]
+
+RewriteOptions inherit
+# Use PHP5.4 as default
+AddHandler application/x-httpd-php54 .php
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+Options +Indexes
+IndexOptions +FancyIndexing
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^employment\-intro\.html$ "http\:\/\/www\.c1consulting\.com\/join\-us" [R=301,L]
+

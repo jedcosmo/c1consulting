@@ -1,0 +1,48 @@
+
+.sow-icon-genericons,
+.sow-icon-fontawesome,
+.sow-icon-icomoon,
+.sow-icon-elegantline{
+  text-align: center;
+}
+
+.style_2 .sow-icon-genericons,
+.style_2 .sow-icon-fontawesome,
+.style_2 .sow-icon-icomoon,
+.style_2 .sow-icon-elegantline,
+.style_2 .sow-icon-typicons {
+  border-radius: 120px;
+  border: 1px solid #dddddd;
+  background: none repeat scroll 0 0 #ffffff;   
+}
+
+.service-style-4 .service h3 div {
+  display: inline-block; 
+  height: 40px;
+  line-height: 40px;
+  margin-right: 20px;
+  position: relative;
+  width: 40px;
+}
+.style_2 .service h3  div {
+  
+  height: 60px;
+  left: 0;
+  line-height: 59px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  width: 60px;
+}
+.style_2 .service:hover .sow-icon-fontawesome,
+.style_2 .service:hover .sow-icon-genericons,
+.style_2 .service:hover .sow-icon-icomoon,
+.style_2 .service:hover .sow-icon-elegantline,
+.style_2 .service:hover .sow-icon-typicons{
+
+  background-color:#df494a ;
+  border-color:#df494a ;
+  color: #fff;
+
+}
+

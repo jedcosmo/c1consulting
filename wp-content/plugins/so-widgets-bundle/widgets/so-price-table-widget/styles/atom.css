@@ -1,0 +1,42 @@
+
+/* Header colors */
+/* Button colors */
+a.btn.btn-default.btn-lg:hover {
+  color: white;
+}
+
+.ow-pt-columns-atom {
+  padding: 6px; 
+}
+
+@media (max-width: 680px) {
+  .ow-pt-columns-atom {
+    padding-top: 0;
+  }
+  .ow-pt-columns-atom .ow-pt-column {
+    float: none;
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  
+}
+@media (max-width: 520px) {
+   .ow-pt-columns-atom {
+    padding-top: 0;
+  }
+  .ow-pt-columns-atom .ow-pt-column {
+    float: none;
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 421px) and (max-width:1100px) {
+ .ow-pt-columns-atom {
+    padding-top: 0;
+  }
+  .ow-pt-columns-atom .ow-pt-column {
+    float: left;
+    width: 50% !important;
+    margin-bottom: 20px;
+  }
+}

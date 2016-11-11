@@ -1,0 +1,2 @@
+[31-Jan-2016 21:04:39 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/conecons/public_html/wp-content/plugins/hello.php on line 60
+[25-Apr-2016 03:27:08 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/conecons/public_html/wp-content/plugins/hello.php on line 60

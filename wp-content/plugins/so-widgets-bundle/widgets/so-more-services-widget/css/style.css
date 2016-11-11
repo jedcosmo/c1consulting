@@ -1,0 +1,87 @@
+.sow-icon-icomoon {
+
+  display:inline-block;
+
+}
+
+.service-one.firstservice {
+
+  border-left: 1px solid #ddd;
+
+  border-bottom: 1px solid #ddd;
+
+}
+
+.service-one:hover .sow-icon-fontawesome,
+
+.service-one.active .sow-icon-fontawesome {
+
+  color: white!important;
+
+}
+
+.service-one:hover .sow-icon-typicons,
+
+.service-one.active .sow-icon-typicons {
+
+  color: white!important;
+
+}
+
+.service-one:hover .sow-icon-genericons,
+
+.service-one.active .sow-icon-genericons {
+
+  color: white!important;
+
+}
+
+.service-one:hover .sow-icon-elegantline,
+
+.service-one.active .sow-icon-elegantline {
+
+  /*color: white!important;*/
+
+}
+
+.service-one:hover .sow-icon-icomoon,
+
+.service-one.active .sow-icon-icomoon
+
+{
+
+  color: white!important;
+
+}
+
+.servicebox:hover .sow-icon-fontawesome {
+
+  color: white!important;
+
+}
+
+.servicebox:hover .sow-icon-typicons {
+
+  color: white!important;
+
+}
+
+.servicebox:hover .sow-icon-genericons {
+
+  color: white!important;
+
+}
+
+.servicebox:hover .sow-icon-elegantline {
+
+  color: white!important;
+
+}
+
+
+
+.servicebox:hover .sow-icon-icomoon {
+
+  color: white!important;
+
+}

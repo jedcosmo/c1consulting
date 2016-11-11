@@ -1,0 +1,20 @@
+.service-one:hover .sow-icon-fontawesome {
+  color: white!important;
+}
+.service-one:hover .sow-icon-typicons {
+  color: white!important;
+}
+.service-one:hover .sow-icon-genericons {
+  color: white!important;
+}
+.service-one:hover .sow-icon-elegantline {
+  color: white!important;
+}
+.service-one:hover .sow-icon-icomoon
+{
+  color: white!important;
+}
+.service-style-3 .service-one .feature div {
+ 
+  line-height: 3;
+}

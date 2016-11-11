@@ -1,0 +1,63 @@
+
+.sow-progress_bars-list {
+  
+  zoom: 1;
+}
+.sow-progress_bars-list:before {
+  content: '';
+  display: block;
+}
+.sow-progress_bars-list:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.sow-progress_bars-list .sow-progress_bars-progress_bar {
+  text-align: center;
+  float: left;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  
+  padding: 0 17px;
+  margin-bottom: 40px;
+}
+
+
+.sow-progress_bars-list .sow-progress_bars-progress_bar p:last-child {
+  margin-bottom: 0;
+}
+.sow-progress_bars-list .sow-progress_bars-progress_bar.sow-progress_bars-progress_bar-last-row {
+  margin-bottom: 0;
+}
+.sow-progress_bars-list .sow-progress_bars-clear {
+  clear: both;
+}
+@media (max-width: 599px) {
+  .sow-progress_bars-list.sow-progress_bars-responsive .sow-progress_bars-progress_bar {
+    width: 100% !important;
+    float: none;
+    margin-bottom: 20px;
+  }
+  .sow-progress_bars-list.sow-progress_bars-responsive .sow-progress_bars-progress_bar:last-child {
+    margin-bottom: 0px;
+  }
+  .sow-progress_bars-list.sow-progress_bars-responsive .sow-progress_bars-clear {
+    clear: none;
+  }
+}
+@media (min-width: 600px) and (max-width:1100px) {
+  .sow-progress_bars-list.sow-progress_bars-responsive .sow-progress_bars-progress_bar {
+    width: 50% !important;
+    float: left;
+    margin-bottom: 20px;
+  }
+  .sow-progress_bars-list.sow-progress_bars-responsive .sow-progress_bars-progress_bar:last-child {
+    margin-bottom: 0px;
+  }
+  .sow-progress_bars-list.sow-progress_bars-responsive .sow-progress_bars-clear {
+    clear: none;
+  }
+}
+
+

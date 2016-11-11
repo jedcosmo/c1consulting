@@ -1,0 +1,404 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>C1 Consulting</title>
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #434343;
+}
+body {
+	background-color: #FFFFFF;
+}
+      
+		
+		/* menu */
+        #menu{
+	margin:0px;
+	padding:0px 0 0 0px;
+	list-style:none;
+	width:800px;
+	background: url(images/menu_backgroundgradient.png);
+	background-repeat:no-repeat;
+	color:#da191a;
+	line-height:50px;
+	display:inline-block;
+	float:left;
+	z-index:200;
+	
+}
+        #menu a {
+	color:#FFFFFF;
+	text-decoration:none;
+	font-size:1.3em;		
+}
+        #menu > li {
+	cursor:pointer;
+	float:left;
+	position:relative;
+	padding:0px 34px;
+}
+        #menu > li a:hover {
+		color:#b1d1d3;
+}
+        #menu .logo {background:transparent none repeat scroll 0% 0%; padding:0px; background-color:Transparent;}
+        
+		
+		/* sub-menus*/
+        #menu ul { padding:0px; margin:0px; display:block; display:inline;}
+        #menu li ul {
+	position:absolute;
+	left:15px;
+	top:0px;
+	margin-top:50px;
+	width:180px;
+	line-height:16px;
+	background: url(images/dot2.png);
+	color:#FFFFFF; /* for IE */
+	display:none;
+}
+        #menu li:hover ul { display:block;}
+        #menu li ul li{ display:block; margin:5px 20px; padding: 5px 0px;  border-top: dotted 1px #FFFFFF; list-style-type:none; }
+        #menu li ul li:first-child { border-top: none; }
+        #menu li ul li a { display:block; color:#FFFFFF; }
+        #menu li ul li a:hover { color:#b1d1d3; }
+        
+		
+		/* main submenu */
+        #menu #main { left:0px; top:-20px; padding-top:20px; background-color:#7cb7e3; color:#fff; z-index:999;}
+        
+		
+		
+		/* corners*/
+        #menu .corner_inset_left { position:absolute; top:0px; left:-12px;}
+        #menu .corner_inset_right { position:absolute; top:0px; left:180px;}
+        #menu .last { background:transparent none repeat scroll 0% 0%; margin:0px; padding:0px; border:none; position:relative; border:none; height:0px;}
+        #menu .corner_left { position:absolute; left:0px; top:0px;}
+        #menu .corner_right { position:absolute; left:162px; top:0px;}
+        #menu .middle { position:absolute; left:18px; height: 20px; width: 145px; top:0px;}
+
+/*tabs1*/
+
+.list2 {
+	list-style-type:none;
+	padding:0 0px 0 0px;
+	width: 225px;
+	z-index:100;
+}
+	.list2 li {
+	line-height:3em;
+	font-size:1.2em;
+	margin-bottom:5px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	behavior: url(js/PIE.htc);
+	position: relative;
+	border:1px solid #d8d8d8;
+	background:#ffffff;
+	z-index:100;
+	
+	}
+		.list2 li a {
+			font-family:Arial, Helvetica, sans-serif;
+			color:#74a6a8;
+			font-weight:bold;
+			text-decoration:none;
+			display:block;
+			padding-left:20px;
+			z-index:100;
+	}
+			.list2 .current1 a {
+	color:#164749;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	behavior: url(js/PIE.htc);
+	position: relative;
+	border:0px solid #838586;
+	background:#D2EFE8;
+	z-index:100;
+	}
+			.list2 li:hover  {
+	
+	background:#f5f4f4;
+		
+	}
+			
+			
+div.paddedl {
+	padding-top: 0px;
+	padding-left: 22px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+div.paddedlp {
+	padding-top: 0px;
+	padding-left: 160px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+div.paddedr {
+	padding-top: 0px;
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+}
+div.paddedcp {
+	padding-top: 0px;
+	padding-left: 160px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+div.paddedr1 {
+	padding-top: 0px;
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+}
+div.paddedr2 {
+	padding-top: 0px;
+	padding-left: 4px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.style1 {
+	font-size: 10px;
+	color: #434343;
+	text-align:left;
+}
+.style3 {font-size: 9px; color: #000000; }
+.style4 {color: #74a6a8}
+a:link {
+	color: #74a6a8;
+}
+a:visited {
+	color: #74a6a8;
+}
+a:hover {
+	color: #FF0000;
+}
+
+ul { margin:10;padding:0;}
+li { margin:0;padding:2;}
+-->
+</style>
+</head>
+
+<body>
+
+<table width="800" border="0" align="center" cellspacing="0">
+  <tr>
+    <td height="100" align="left" valign="top"><img src="images/C1logo.gif" alt="" name="logopic" width="303" height="83" border="0" usemap="#logopicMap" id="logopic" /></td>
+  </tr>
+  <tr>
+    <td height="300"><img src="images/PEOPLE_HEADER_PIC.jpg" alt="headerpic" />
+    
+    </td>
+  </tr>
+  
+  <tr>
+  		<td><img src="images/spacer.gif" width="100%" height="5px"><br /></td> 
+  </tr>
+  
+  <tr>
+  		<td height="50px">
+        <ul id="menu">
+            
+            <li>
+           	  <a href="index.html">HOME</a>            
+            </li>
+      		<li>
+            	<a href="about-intro.html">ABOUT US</a>
+            		<ul id="help">
+                    <li>
+                        <img class="corner_inset_left" alt="" src="images/corner_insert_left3.png"/>
+                        <a href="about-intro.html">Introduction</a>
+                        <img class="corner_inset_right" alt="" src="images/corner_insert_right3.png"/>
+                    </li>
+                  	<li><a href="about-c1difference.html">The C1 Difference</a></li>
+                    <li><a href="about-leadershipteam.html">Leadership Team</a></li>
+                  	<li class="last">
+                        <img class="corner_left" alt="" src="images/corner_left2.png"/>
+                        <img class="middle" alt="" src="images/dot2.png"/>
+                        <img class="corner_right" alt="" src="images/corner_right2.png"/>
+                  </li>
+                </ul>
+            </li>
+            <li>
+            	<a href="practiceareas-intro.html">PRACTICE AREAS</a>
+            		<ul id="help">
+                    <li>
+                        <img class="corner_inset_left" alt="" src="images/corner_insert_left3.png"/>
+                        <a href="practiceareas-intro.html">Introduction</a>
+                        <img class="corner_inset_right" alt="" src="images/corner_insert_right3.png"/>
+                    </li>
+                    <li><a href="practiceareas-functionalexpertise.html">Functional Expertise</a></li>
+                  	<li><a href="practiceareas-methodology.html">Methodology</a></li>
+                    <li><a href="practiceareas-therapeuticareas.html">Therapeutic Areas</a></li>
+                  	<li class="last">
+                        <img class="corner_left" alt="" src="images/corner_left2.png"/>
+                        <img class="middle" alt="" src="images/dot2.png"/>
+                        <img class="corner_right" alt="" src="images/corner_right2.png"/>
+                  </li>
+                </ul>
+            </li>
+			<li><a href="employment-intro.html"><strong>EMPLOYMENT</strong></a>
+            	<ul id="help">
+                    <li>
+                        <img class="corner_inset_left" alt="" src="images/corner_insert_left3.png"/>
+                        <a href="employment-intro.html">Introduction</a>
+                        <img class="corner_inset_right" alt="" src="images/corner_insert_right3.png"/>
+                    </li>
+                    <li><a href="careerdev.html">Career Development</a></li>
+                  	<li><a href="howtoapply.html">How to Apply</a></li>
+                    <li><a href="faqs.html">FAQ's</a></li>
+                  	<li class="last">
+                        <img class="corner_left" alt="" src="images/corner_left2.png"/>
+                        <img class="middle" alt="" src="images/dot2.png"/>
+                        <img class="corner_right" alt="" src="images/corner_right2.png"/>
+                  </li>
+                </ul>
+            </li>
+            <li>
+            	<a href="contact.html">CONTACT US</a>
+    		</li>
+        </ul>   
+        
+        </td>
+  </tr>
+  
+  <tr>
+  		<td><img src="images/spacer.gif" width="100%" height="5px"><br /></td> 
+  </tr>		
+  <tr>
+		<td>
+	
+<!-- MAIN CONTENT -->
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td>
+					
+<!-- TWO COLUMNS -->
+
+					<table width="100%" border="0" cellpadding="0" cellspacing="0" background="images/ABOUT_TWO_COLUMN_BG.gif" style="background-repeat:repeat-y;">
+						<tr>
+							<td>
+								<img src="images/EMPLOYMENT_INTRO_TWO_COLUMN_HEADER.gif" />
+					
+							</td>
+						</tr>
+						<tr>
+							<td>
+							
+								<table width="100%" border="0" cellpadding="0" cellspacing="0">
+									<tr>
+										<td width="274px" valign="top">
+											<div class ="paddedl">
+												<div class="style1">
+                                                <img src="images/EMPLOYMENT_RIGHT_PIC.gif" alt="" name="leftboxpic" width="226" height="92" id="leftboxpic" style="margin-bottom:10px" />
+												</div>
+                                          </div>
+											<div class="paddedl">
+     						<!-- TABS MENU CODING STARTS HERE -->   	
+                                                    <ul class="list2">
+														<li><a href="employment-intro.html">Introduction</a></li>
+														<li class="current1"><a href="careerdev.html">Career Development</a></li>
+                                                        <li><a href="howtoapply.html">How to Apply</a></li>
+														<li><a href="faqs.html">Frequently Asked Questions</a></li>
+                                                        <li><a href="https://boards.greenhouse.io/c1consulting.com">Job Vacancies</a></li>
+													</ul>
+                            <!-- TABS MENU CODING ENDS HERE  -->
+											</div>
+										</td>
+										<td valign="top">
+											<div class="paddedr1">
+     											<div class="style1">
+               		                				
+                                                    <img src="images/banner_careerdevelopment.jpg" width="350" height="34"/><br />
+                                                    <img src="images/spacer.gif" width="100%" height="10px"><br />
+                                                		As a rapidly growing and entrepreneurial firm, new employees at C1 have the opportunity to build a diverse skill set and take on significant responsibility based on performance.  We are a meritocracy where employees progress as fast as their skills allow; we don't have set times to promotion.  C1 has a relatively flat structure that emphasizes teamwork and learning from highly experienced, senior team members.  All employees are assigned project work and responsibilities in accordance with their capabilities, not their title. <p>
+                                                        Explore the different opportunities on our career path below to see how your skills can contribute to C1.
+<!--												<img src="images/careerpath_pic.jpg" width="450" height="500" border="0" usemap="#Map5" /><br />		
+                                                <font size="5" color="red">Open Positions</font><br /> -->
+                                              </div>
+                                          	</div>
+                                            <div class="paddedr1">
+                                            <img src="images/spacer.gif" width="100%" height="10px" /><br />
+                                            <img src="images/PEOPLE_DIVIDER_LINE.gif" width="485" height="4" /><br />
+                                            </div>
+<!-- DIV REPLACE HERE -->
+
+
+		
+										</td>
+									</tr>
+								</table>
+					
+							</td>
+						</tr>
+						<tr>
+							<td>
+								
+								<img src="images/ABOUT_TWO_COLUMN_FOOTER.gif" />
+								
+							</td>
+						</tr>
+					</table>
+					
+
+					
+<!-- EOF TWO COLUMNS -->
+					
+					
+				</td>
+				
+			</tr>
+		</table><img src="images/spacer.gif" width="100%" height="10px"><br />
+		
+		
+<!-- EOF MAIN CONTENT -->
+		
+		
+		</td>
+  </tr>
+  <tr>
+    <td height="87" background="images/bottomboxbck.gif" style="background-repeat:no-repeat">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="50" align="center" valign="top"><p class="style1">&nbsp;</p>
+      <div class="style3">
+        <p>COPYRIGHT  C1 CONSULTING  2009 | <span class="style4"><a href="privacy.html" target="_self">PRIVACY POLICY</a></span></p>
+        <p><br />
+          129 Summit Ave Suite 200, Summit, New Jersey 07901 </p>
+      </div>
+      </td>
+  </tr>
+</table>
+
+
+<map name="logopicMap" id="logopicMap">
+<area shape="poly" coords="1,21,46,21,65,41,292,42,291,77,262,78,258,71,3,73,2,22" href="index.html" target="_self" />
+</map>
+<map name="Map2" id="Map2"><area shape="rect" coords="2,3,80,16" href="job1.html" target="_self" />
+</map>
+<map name="Map3" id="Map3"><area shape="rect" coords="1,3,78,15" href="job2.html" target="_self" />
+</map>
+<map name="Map" id="Map"><area shape="rect" coords="2,2,80,15" href="job3.html" target="_self" />
+</map>
+<map name="Map4" id="Map4"><area shape="rect" coords="2,3,78,16" href="job4.html" target="_self" />
+</map>
+<!--
+<map name="Map5" id="Map5">
+  <area shape="rect" coords="182,186,258,208" href="director.html" target="_self" />
+<area shape="rect" coords="144,220,226,239" href="manager.html" target="_self" />
+<area shape="rect" coords="105,262,259,284" href="consultant.html" target="_self" />
+<area shape="rect" coords="83,298,186,324" href="consultant.html" target="_self" />
+<area shape="rect" coords="63,341,188,364" href="analyst.html" target="_self" />
+<area shape="rect" coords="44,385,111,403" href="analyst.html" target="_self" />
+<area shape="rect" coords="121,386,217,402" href="sas analyst.html" /></map></body> -->
+</html> 

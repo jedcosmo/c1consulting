@@ -1,0 +1,121 @@
+/* ==================================================================
+	COLORS
+================================================================== */
+
+
+.colorgreen,
+.rating i,
+.widget_categories li:before,.widget_pages li:before,
+.widget_archive li:before,
+.widget_pages li:before,
+.widget_meta li:before,
+.widget_recent_comments li:before,
+.widget_nav_menu li:before,
+.custom1 li:hover:before,
+.custom3 li:hover:before,
+.sharebuttons a i,
+.icon-container,
+.yamm .dropdown-menu li a:hover,
+.yamm .dropdown-menu li a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:active,
+.servicebox i,
+.service-one i,
+.owl-desc i {
+	color: #45b29d;
+}
+
+.normalquote small,
+.colorred,
+.shop-button .input-group .btn-default,
+.tags-widget a:hover,
+.custom li:hover:before,
+.widget_categories li:hover:before,.widget_pages li:hover:before,
+.widget_nav_menu li:hover:before,
+.widget_archive li:hover:before,
+.widget_pages li:hover:before,
+.widget_meta li:hover:before,
+.widget_recent_comments li:hover:before,
+.big-contact i,
+.check li:before,
+.statwrap i {
+	color: #df494a;
+}
+
+.pricing-circle,
+.dropdown-menu > li > .btn:hover,
+.panel-heading:hover,
+.stylish-input-group .input-group-addon {
+	background: #45b29d !important;
+	border-color: #45b29d !important;
+	color:#ffffff !important;
+}
+
+
+#payment label:hover,
+.shoptable .table > thead > tr > th,
+.shop-button .input-group .btn-default:hover,
+.pager li a:hover,
+.portfolio-container.image-hover-red .portfolio-item:hover .portfolio-image:after,
+.portfolio-filtering a.active,
+.portfolio-filtering a:hover,
+.portfolio-filtering a:focus,
+.post-type,
+.welcome .btn-primary {
+	background-color: #45b29d;
+	border-color: #45b29d !important;
+}
+
+.pricingbox:hover,
+.ourprocesswidget:hover .icon-container,
+#teamcarousel .magnifier,
+.classic-item .magnifier,
+.service-style-1:hover .icon-container,
+.slider-btn .btn-primary,
+.tp-caption.slider-btn .btn-primary,
+.servicebox:hover,
+.service:hover i,
+.portfolio-filter ul li a.active,
+.portfolio-filter ul li a:hover,
+.service-one.active,
+.service-one:hover,
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span,
+.btn-primary,
+.wpcf7 input.btn-primary,
+.backtotop {
+	background-color: #df494a;
+}
+.longdesc blockquote,
+.comment-list blockquote,
+.customquote,
+.ourprocesswidget:hover .icon-container,
+.section-title hr,
+.service-style-1:hover .icon-container,
+.slider-btn .btn-primary,
+.tp-caption.slider-btn .btn-primary,
+.servicebox:hover,
+.service:hover h3,
+.service:hover i,
+.portfolio-filter ul li a.active,
+.portfolio-filter ul li a:hover,
+.service-one.active,
+.service-one:hover,
+.section-title-2 hr,
+.form-control:focus,
+.btn-primary,
+.wpcf7 input.btn-primary{
+	/*border-color: #df494a !important;*/
+}
+
+.classic-shop .magnifier {
+	background-color: rgba(223,73,74,0.9);
+}
+.red-type,
+.colorfulservices {
+	background-color: #d14a4b;
+	border-color:#45b29d;
+}
